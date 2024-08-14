@@ -47,7 +47,7 @@ function M.zoom()
 end
 
 function M.setup()
-    vim.api.nvim_create_user_command('Zoom', M.zoom)
+    vim.api.nvim_create_user_command('Zoom', M.zoom, {})
 end
 
 return M
